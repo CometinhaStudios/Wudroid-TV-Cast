@@ -1,13 +1,6 @@
 # Wudroid TV Cast
 
-Receptor leve para Google TV / Android TV do modo TV do Wudroid.
+Receptor leve do Wudroid para Android TV / Google TV / celulares Android.
 
-## Test1
-
-- Descoberta automática do Wudroid na mesma rede local.
-- Recepção do fluxo H.264/UDP do Wudroid.
-- Decodificação com MediaCodec direto para a tela da TV.
-- Sem emulador dentro do app da TV.
-- Foco inicial em vídeo e baixa latência.
-
-O app principal continua no repositório `Wudroid`. Este repositório contém apenas o receptor da TV.
+## Test2 Universal
+O mesmo APK agora pode ser instalado em TV ou celular. Em celular, ele abre em paisagem e funciona como receptor de vídeo H.264/UDP — útil para ligar um Galaxy S23 a um monitor e usá-lo como “TV” de teste.
