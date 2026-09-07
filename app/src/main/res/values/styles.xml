@@ -3,9 +3,10 @@
         <item name="android:fontFamily">sans</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowActionModeOverlay">true</item>
-        <item name="android:colorAccent">#00B8F5</item>
-        <item name="android:windowBackground">#000000</item>
-        <item name="android:navigationBarColor">#000000</item>
-        <item name="android:statusBarColor">#000000</item>
+        <item name="android:colorAccent">#12BDF3</item>
+        <item name="android:windowBackground">#040C14</item>
+        <item name="android:navigationBarColor">#040C14</item>
+        <item name="android:statusBarColor">#040C14</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 </resources>

@@ -28,11 +28,11 @@ jobs:
         run: ./gradlew :app:assembleDebug --stacktrace
 
       - name: Name APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk Wudroid-TV-Cast-Test2-Universal.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk Wudroid-TV-Cast-Test3-StableUI.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Wudroid-TV-Cast-Test2-Universal
-          path: Wudroid-TV-Cast-Test2-Universal.apk
+          name: Wudroid-TV-Cast-Test3-StableUI
+          path: Wudroid-TV-Cast-Test3-StableUI.apk
           if-no-files-found: error

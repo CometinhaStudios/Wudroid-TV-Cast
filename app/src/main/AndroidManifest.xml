@@ -10,20 +10,24 @@
     <application
         android:allowBackup="false"
         android:banner="@drawable/tv_banner"
-        android:icon="@drawable/tv_icon"
+        android:icon="@drawable/wudroid_cast_icon"
         android:label="Wudroid TV Cast"
         android:supportsRtl="true"
-        android:theme="@style/Theme.WudroidTvCast">
+        android:theme="@style/Theme.WudroidTvCast"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".TvCastActivity"
-            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize|uiMode"
             android:exported="true"
             android:screenOrientation="landscape"
             android:resizeableActivity="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

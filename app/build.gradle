@@ -10,17 +10,13 @@ android {
         applicationId 'com.cometinhastudios.wudroid.tvcast'
         minSdk 24
         targetSdk 35
-        versionCode 2
-        versionName '0.1.2TV-cast-test2-universal'
+        versionCode 3
+        versionName '0.1.2TV-cast-test3-stableui'
     }
 
     buildTypes {
-        debug {
-            minifyEnabled false
-        }
-        release {
-            minifyEnabled false
-        }
+        debug { minifyEnabled false }
+        release { minifyEnabled false }
     }
 
     compileOptions {
